@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #E5E5E5;
+    padding-top: 45px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 18px;
+    font-weight: 800;
+}
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav__item{
+    margin-right: 20px;
+}
+.nav__item: :last-child {
+    margin-right: 0px;
+}
+
+.phone{
+    font-weight: 800;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
