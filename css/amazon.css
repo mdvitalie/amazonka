@@ -8,13 +8,19 @@ body{
     font-family: sans-serif;
 }
 
+/* ============= Heading Section ============= */
+
 .header{
-    background-color: #E5E5E5;
+    background-color: #F8F8F8;
     padding-top: 45px;
+    padding-bottom: 145px;
 }
 .container{
     max-width: 1140px;
     margin: auto;
+}
+.header__top{
+    margin-bottom: 100px;
 }
 .top{
     display: flex;
@@ -32,8 +38,9 @@ body{
 
 .nav__item{
     margin-right: 20px;
+    font-size: 14px;
 }
-.nav__item: :last-child {
+.nav__item:last-child {
     margin-right: 0px;
 }
 
@@ -43,3 +50,43 @@ body{
     color: #000000;
     text-decoration: none;
 }
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content__text{
+    flex-basis: 50%;
+}
+.headr-content__title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.headr-content__description{
+    font-size: 17px;
+    line-height: 160%;
+    padding: 20px  0;
+    margin-bottom: 42px;
+}
+
+.headr-contet__img{
+    min-width: 600px;
+}
+.button{
+    /* width: 250px;
+    height: 60px; */
+    background: #FF6C6C;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 160%;
+    padding: 15px 56px;
+}
+.button--shadow{
+    box-shadow: 0px 10px 25px rgba(255, 108, 108, 0.5);
+
+}
+/* ============= End of Heading Section ============= */
