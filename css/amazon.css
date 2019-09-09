@@ -1,118 +1,131 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 
 /* ============= Heading Section ============= */
 
-.header{
-    background-color: #F8F8F8;
-    padding-top: 45px;
-    padding-bottom: 145px;
-}
-.container{
-    max-width: 1140px;
-    margin: auto;
-}
-.header__top{
-    margin-bottom: 100px;
-}
-.top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    font-size: 18px;
-    font-weight: 800;
-}
-.nav{
-    display: flex;
-    list-style: none;
+.header {
+  background-color: #F8F8F8;
+  padding-top: 45px;
+  padding-bottom: 145px;
 }
 
-.nav__item{
-    margin-right: 20px;
-    font-size: 14px;
+.container {
+  max-width: 1140px;
+  margin: auto;
 }
+
+.header__top {
+  margin-bottom: 100px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
 .nav__item:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
-.nav__link{
-    text-decoration: none;
-    color: #000000;
+.nav__link {
+  text-decoration: none;
+  color: #000000;
 }
 
-.phone{
-    font-weight: 800;
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
+.phone {
+  font-weight: 800;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
-.header-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header-content__text{
-    flex-basis: 50%;
-}
-.headr-content__title{
-    font-size: 40px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-.headr-content__description{
-    font-size: 17px;
-    line-height: 160%;
-    padding: 20px  0;
-    margin-bottom: 42px;
+.header-content__text {
+  flex-basis: 50%;
 }
 
-.headr-contet__img{
-    min-width: 600px;
+.headr-content__title {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
-.button{
-    /* width: 250px;
+
+.headr-content__description {
+  font-size: 17px;
+  line-height: 160%;
+  padding: 20px 0;
+  margin-bottom: 42px;
+}
+
+.headr-contet__img {
+  min-width: 600px;
+}
+
+.button {
+  /* width: 250px;
     height: 60px; */
-    background: #FF6C6C;
-    border-radius: 4px;
-    border: none;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 160%;
-    padding: 15px 56px;
-    cursor: pointer;
+  background: #FF6C6C;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 160%;
+  padding: 15px 56px;
+  cursor: pointer;
 }
-.button--shadow{
-    box-shadow: 0px 10px 25px rgba(255, 108, 108, 0.5);
+
+.button--shadow {
+  box-shadow: 0px 10px 25px rgba(255, 108, 108, 0.5);
 
 }
+
 /* ============= End of Heading Section ============= */
 
 /* #################### CATALOG section #################### */
 
-.section{
-    padding: 100px 0;
+.section {
+  padding: 100px 0;
 }
 
-.section__title{
+.section__title {
   margin-bottom: 50px;
 }
-.cards{
+
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.card{
+
+.card {
   flex-basis: 25%;
   background-color: #F8F8F8;
   box-shadow: 0px 4px 4px rgba(104, 104, 104, 0.1);
@@ -121,38 +134,46 @@ body{
   padding: 30px;
 }
 
-.goods__card{
+.goods__card {
   margin-bottom: 30px;
 }
-.card__image{
+
+.card__image {
   margin-bottom: 28px;
 }
-.card__text{
+
+.card__text {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 28px;
 }
-.card__title{
+
+.card__title {
   font-size: 16px;
   line-height: 24px;
   text-align: left;
   max-width: 200px;
 }
-.card__price{
+
+.card__price {
   font-size: 36px;
 }
-.card__button{
+
+.card__button {
   width: 100%;
 }
+
 /* #################### End of CATALOG section #################### */
 
 /* #################### Customer reviews section #################### */
-.review-cards{
+.review-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.review-card{
+
+.review-card {
   background: #FFFFFF;
   border: 1px solid #EDEDED;
   box-sizing: border-box;
@@ -161,42 +182,50 @@ body{
   padding: 20px 30px;
   flex-basis: 24%;
 }
-.review-card__title{
+
+.review-card__title {
   font-size: 14px;
   margin-bottom: 10px;
 }
-.review-card_text{
+
+.review-card_text {
   font-size: 14px;
   line-height: 21px;
 }
+
 /* #################### End of Customer reviews section #################### */
 
 /* #################### Footer section section #################### */
-.footer{
+.footer {
   background-color: #F8F8F8;
 
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: space-between;
 }
+
 .contacts__form {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.form{
+
+.form {
   flex-basis: 45%;
- 
+
 }
-.map{
+
+.map {
   flex-basis: 50%;
 }
-.map iframe{
+
+.map iframe {
   width: 100%;
   height: 100%;
 }
-.input{
+
+.input {
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.25);
   border-radius: 5px;
@@ -205,39 +234,88 @@ body{
   font-size: 14px;
 }
 
-.form__input{
+.form__input {
   flex-basis: 50%;
 }
 
-.form__inputs{
+.form__inputs {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
-.form__input{
+
+.form__input {
   width: 47%;
   margin-bottom: 20px;
 }
 
-.form__inputs input:first-child{
+.form__inputs input:first-child {
   margin-right: 30px;
 }
-.contacts__form textarea{
+
+.contacts__form textarea {
   width: 100%;
   display: block;
   margin-bottom: 30px;
 }
-.form__buttons{
+
+.form__buttons {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
 }
-.social{
+
+.social {
   display: flex;
 }
-.social_link{
+
+.social_link {
   margin-left: 22px;
 
 }
 
 /* #################### End of Footer section section #################### */
+
+
+/* #################### Responsive web design #################### */
+@media(max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .headr-content__title{
+font-size: 29px;
+  }
+
+  .headr-content__description{
+    font-size: 16px;
+  }
+
+  .card{
+  flex-basis: 48%;
+  }
+  .card__image{
+    width: 100%;
+  }
+
+  .review-card{
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media(max-width: 900px){
+.container{
+  max-width: 760px;
+}
+.header-content{
+  flex-direction: column;
+}
+.contacts{
+  flex-direction: column;
+}
+.form {
+  margin-bottom: 40px;
+}
+}
