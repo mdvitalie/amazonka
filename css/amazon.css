@@ -29,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+   font-weight: bold
 }
 
 .logo {
@@ -86,7 +87,7 @@ body {
 }
 
 .headr-contet__img {
-  min-width: 600px;
+  width: 600px;
 }
 
 .button {
@@ -278,6 +279,8 @@ body {
 
 
 /* #################### Responsive web design #################### */
+
+/*############# @media query: 1200px ############# */
 @media(max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -301,11 +304,14 @@ font-size: 29px;
   .review-card{
     flex-basis: 48%;
     margin-bottom: 20px;
+    /* margin-right: 5px; */
   }
   
 }
+/*#############End of  @media query: 1200px ############# */
 
-@media(max-width: 900px){
+/*############# @media query: 900px ############# */
+@media(max-width: 990px){
 .container{
   max-width: 760px;
 }
@@ -315,7 +321,45 @@ font-size: 29px;
 .contacts{
   flex-direction: column;
 }
-.form {
-  margin-bottom: 40px;
+.headr-content__description{
+  max-width: 500px;
+}
+.contacts__form{
+  margin-bottom: 50px;
+}
+.review-card{
+  margin-right: 35px;
 }
 }
+
+/*############# End of @media query: 900px ############# */
+
+/*############# @media query: 900px ############# */
+
+@media(max-width: 768px){
+.container{
+  width: 90%;
+  min-height: 100px;
+}
+.top{
+  flex-direction: column;
+  min-height: 100px;
+ 
+}
+.header-content{
+  text-align: center;
+}
+.headr-content__title{
+  font-size: 24px;
+}
+.headr-content__description{
+  font-size: 16px;
+}
+.headr-contet__img{
+  width: 80%;
+}
+.card{
+  flex-basis:100%;
+}
+}
+/*############# End of @media query: 900px ############# */
