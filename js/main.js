@@ -9,7 +9,6 @@ $('.review-cards').slick({
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        // autoplaySpeed: 2000,
         arrows: false
       }
      },
@@ -20,7 +19,6 @@ $('.review-cards').slick({
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        // autoplaySpeed: 2000,
         arrows: false
       }
     }
